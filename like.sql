@@ -1,3 +1,45 @@
+SELECT title, author_fname
+FROM books
+WHERE author_fname LIKE '%da%';
+
+SELECT title, author_fname
+FROM books
+WHERE author_fname LIKE 'da%';
+
+SELECT title
+FROM books
+WHERE  title LIKE 'the';
+
+SELECT title
+FROM books
+WHERE  title LIKE '%the';
+
+SELECT title
+FROM books
+WHERE title LIKE '%the%';
+
+-----------------------------------------------------------
+
+SELECT title, author_fname
+FROM books
+WHERE author_fname LIKE '%da%';
+
+SELECT title, author_fname
+FROM books
+WHERE author_fname LIKE 'da%';
+
+SELECT title
+FROM books
+WHERE  title LIKE 'the';
+
+SELECT title
+FROM books
+WHERE  title LIKE '%the';
+
+SELECT title
+FROM books
+WHERE title LIKE '%the%';
+
 SELECT title, stock_quantity
 FROM books;
 
@@ -16,8 +58,8 @@ FROM books;
 
 SELECT title
 FROM books
-WHERE title LIKE '%\%%'
+WHERE title LIKE '%\%%';
 
 SELECT title
 FROM books
-WHERE title LIKE '%\_%'
+WHERE title LIKE '%\_%';
