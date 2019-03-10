@@ -1,3 +1,9 @@
+CREATE DATABASE book_db;
+
+USE book_db;
+
+SELECT DATABASE();
+
 CREATE TABLE books 
 	(
 		book_id INT NOT NULL AUTO_INCREMENT,
@@ -9,6 +15,8 @@ CREATE TABLE books
 		pages INT,
 		PRIMARY KEY(book_id)
 	);
+
+DESC books;
 
 INSERT INTO books (title, author_fname, author_lname, released_year, stock_quantity, pages)
 VALUES
