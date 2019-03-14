@@ -1,8 +1,4 @@
 CODE:
-In And Not In
-Section 11, Lecture 194
-show databases
-();
 use book_shop;
 
 SELECT
